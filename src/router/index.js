@@ -7,6 +7,10 @@ const routes = [
   {
     path: '/sellerpage',
     component: () => import('../views/sellerPage.vue')
+  },
+  {
+    path: '/trendpage',
+    component: () => import('../views/TrendPage.vue')
   }
 ]
 
