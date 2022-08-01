@@ -22,7 +22,7 @@ export default {
     window.removeEventListener('resize', this.screenAdapter)
   },
   methods: {
-    initnChatr() {
+    initChatr() {
       this.chartInstance = this.$echarts.init(this.$refs.rank_ref)
       const initOption = {}
       this.chartInstance.setOption(initOption)
