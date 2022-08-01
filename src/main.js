@@ -4,6 +4,8 @@ import router from './router'
 import store from './store'
 import './assets/css/global.less'
 
+// 引入字体的文件
+import './assets/font/iconfont.css'
 import axios from 'axios'
 axios.defaults.baseURL = '/api'
 Vue.prototype.$http = axios
